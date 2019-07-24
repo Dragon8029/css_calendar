@@ -1,0 +1,9 @@
+.day-of-week, 
+.date-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.date-grid button:first-child {
+    grid-column: 6;
+}
